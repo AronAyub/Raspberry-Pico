@@ -5,5 +5,5 @@ pin = Pin("LED", Pin.OUT)
 
 print("LED starts flashing...")
 while True:
-    pin.toggle()
+    pin.toggle()  
     sleep(0.5) # sleep 1sec
